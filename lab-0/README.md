@@ -88,3 +88,13 @@
 |`./1`|запустить исполняемый файл 1 из текущей директории|
 |`gedit 1.c`|стандартный текстовый редактор|
 |`vim 1.c`|консольный текстовый редактор (не для слабаков)|
+
+
+### Установка LaTeX под Ubuntu и сборка примера
+
+```
+sudo apt install texlive-latex-extra texlive-extra-utils texlive-lang-cyrillic
+mkdir pdf
+cd pdf 
+pdflatex ../template.tex
+```
